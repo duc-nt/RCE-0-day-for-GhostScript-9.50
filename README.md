@@ -12,3 +12,7 @@
 
 ## Demo
 <img src="https://pbs.twimg.com/media/E-h9HtGVkAk0IVW?format=png&name=large">
+
+## Noted for php-imagemagick, sometime you must find the correct `fd/<number>`. The easiest way for doing this stuff is fuzzylogic and something like this (Tested with Ubuntu 20.04 and default php-imagemagick installed).
+<img src="https://pbs.twimg.com/media/E-iOJt_VIAAKmBi?format=png&name=large">
+
